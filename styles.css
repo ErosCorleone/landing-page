@@ -1,0 +1,229 @@
+body {
+    font-family: robot, helvetica, sans-serif;
+    margin: 0px;
+    padding: 0;
+    box-sizing: inherit;
+    color: rgb(206, 202, 202);
+}
+
+.section-1 {
+    background-color: #1F2937;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 36px;
+    padding-bottom: 60px;
+}
+
+.section-1 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.section-1 .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 .header-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 .hero {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0;
+}
+
+.button-button {
+    flex: display;
+    max-width: 100px;
+    padding: 6px 24px;
+    background-color: #3882F6;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: none;
+    margin-top: 12px;
+}
+
+.hero-right {
+    background-image: url(img/202.jpeg);
+    align-self: stretch;
+    background-size: cover;
+    flex: 1.24;
+    max-height: 400px;
+    border-radius: 8px;
+}
+
+.section-2 {
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 36px;
+    padding-bottom: 60px;
+    background-color: #fdfdfd;
+}
+
+.section-2 .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.section-2-header {
+    display: flex;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.section-2-cards {
+    display: flex;
+    gap: 40px;
+}
+
+.section-2-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.img-1 { background-image: url(img/202.jpeg);}
+.img-2 { background-image: url(img/window-shopping.jpeg);}
+.img-3 { background-image: url(img/bordel.jpeg);}
+.img-4 { background-image: url(img/king-of-cairo.jpeg);}
+
+.section-2 .img {
+    align-self: stretch;
+    background-size: cover;
+    flex: 1.24;
+    max-height: 400px;
+    min-height: 200px;
+    border-radius: 8px;
+}
+
+.section-2-cards-card p {
+    margin-top: 8px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-3 .section.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1F2937;
+}
+
+.section-4 {
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section-4 .section.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    border-radius: 8px;
+}
+
+.section-4 .button {
+    flex: display;
+    max-width: 100px;
+    padding: 6px 24px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: solid white 2px;
+    background-color: #3882F6;
+}
+
+.section-4-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.action {
+    font-size: 20px;
+}
+
+.big {
+    display: flex;
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+}
+
+.section {
+    display: flex;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 202, 202);
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.hero-left-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 42px;
+}
+
+.hero-left p {
+    margin-top: 20px;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
